@@ -326,7 +326,7 @@ show_log() {
 }
 
 install_bbr() {
-    bash <(curl -L -s https://github.com/moranchenxi/blog/raw/master/bbr.sh)
+    bash <(curl -L -s https://github.com/moranchenxi/moran/raw/master/bbr.sh)
     if [[ $? == 0 ]]; then
         echo ""
         echo -e "${green}安装 bbr 成功${plain}"
